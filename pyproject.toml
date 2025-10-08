@@ -1,7 +1,11 @@
 [project]
 name = "video-music-lyrics-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "✨A APP that allows CC subtitles from mainstream video websites on the market to be displayed outside the browser window✨"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "flet-pages>=0.0.2",
+    "nuitka>=2.7.16",
+    "pyinstaller>=6.16.0",
+]
