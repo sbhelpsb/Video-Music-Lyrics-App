@@ -1,10 +1,9 @@
 """
 獲取媒體初始化
 """
-from base import com_obj
 
 
-class Get_Media(com_obj):
+class Get_Media():
     """
     獲取媒體
     """

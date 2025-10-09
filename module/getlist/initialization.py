@@ -1,10 +1,8 @@
 """
 獲取列表初始化
 """
-from base import com_obj
 
-
-class Get_List(com_obj):
+class Get_List():
     """
     獲取列表
     """

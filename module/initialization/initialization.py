@@ -1,10 +1,10 @@
 """
 安裝下載器
 """
-from base import com_obj
 
 
-class Install_Downloader(com_obj):
+
+class Install_Downloader():
     """
     安裝下載器
     """
