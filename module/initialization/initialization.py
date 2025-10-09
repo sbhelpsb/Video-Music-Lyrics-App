@@ -2,7 +2,7 @@
 安裝下載器
 """
 import abc
-
+from .data import initialization
 
 class Install_Downloader(abc.ABC):
     """

@@ -2,22 +2,19 @@
 獲取列表初始化
 """
 import abc
+from .data import GetListData
+
 
 class Get_List(abc.ABC):
     """
     獲取列表
     """
-    def __init__(self):
+    def __init__(self, list_name: str):
         super().__init__()
+
     @abc.abstractmethod
-    def __str__(self) -> str:
+    def get_list(self) -> GetListData:
         """
-        输出指令形式
+        獲取列表
         """
-        return "Get_List"
-    @abc.abstractmethod
-    def __repr__(self) -> str:
-        """
-        输出调用形式
-        """
-        return f"Get_List()"
+        pass
