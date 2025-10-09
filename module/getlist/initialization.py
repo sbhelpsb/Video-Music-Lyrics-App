@@ -9,13 +9,13 @@ class Get_List(abc.ABC):
     """
     def __init__(self):
         super().__init__()
-
+    @abc.abstractmethod
     def __str__(self) -> str:
         """
         输出指令形式
         """
         return "Get_List"
-
+    @abc.abstractmethod
     def __repr__(self) -> str:
         """
         输出调用形式
