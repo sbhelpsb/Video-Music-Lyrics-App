@@ -1,8 +1,9 @@
 """
 獲取列表初始化
 """
+import abc
 
-class Get_List():
+class Get_List(abc.ABC):
     """
     獲取列表
     """

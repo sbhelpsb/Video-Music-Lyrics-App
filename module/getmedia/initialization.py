@@ -1,9 +1,9 @@
 """
 獲取媒體初始化
 """
+import abc
 
-
-class Get_Media():
+class Get_Media(abc.ABC):
     """
     獲取媒體
     """

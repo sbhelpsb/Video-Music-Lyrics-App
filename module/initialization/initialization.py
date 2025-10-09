@@ -1,10 +1,10 @@
 """
 安裝下載器
 """
+import abc
 
 
-
-class Install_Downloader():
+class Install_Downloader(abc.ABC):
     """
     安裝下載器
     """
